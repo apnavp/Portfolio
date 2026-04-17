@@ -1,2 +1,29 @@
-
-{"name": "your-package-name", "version": "your-version", "dependencies": {"browser-sync": "3.0.4", "lodash.template": "4.18.1"}, "devDependencies": {}, "scripts": {}, "description": "Consolidated security updates","author": "apnavp","license": "MIT"}
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website with all Dependabot security vulnerabilities resolved",
+  "author": "apnavp",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^3.0.4",
+    "lodash.template": "^4.18.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.6",
+    "browserslist": "^4.23.0",
+    "postcss": "^8.4.38"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*'"
+  },
+  "overrides": {
+    "decode-uri-component": "^0.2.2",
+    "engine.io": "^6.4.2",
+    "socket.io-parser": "^4.2.4",
+    "path-parse": "^1.0.7",
+    "hosted-git-info": "^4.0.2",
+    "ini": "^1.3.8",
+    "y18n": "^5.0.8",
+    "copy-props": "^2.0.5"
+  }
+}
