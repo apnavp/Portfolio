@@ -1,1 +1,2 @@
+
 {"name": "your-package-name", "version": "your-version", "dependencies": {"browser-sync": "3.0.4", "lodash.template": "4.18.1"}, "devDependencies": {}, "scripts": {}, "description": "Consolidated security updates","author": "apnavp","license": "MIT"}
